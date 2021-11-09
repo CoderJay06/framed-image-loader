@@ -2,3 +2,23 @@ body {
   font-family: sans-serif;
   margin: 0 auto;
 }
+
+#image {
+  min-width: 400px;
+  max-height: 400px;
+  height: 400px;
+  background: whitesmoke;
+  background-image: none;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+#image-loader-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#image-loader-input {
+  margin-left: 1em;
+}
